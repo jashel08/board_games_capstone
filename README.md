@@ -6,8 +6,8 @@ This project analyzes the top 250 ranked board games on BoardGameGeek.com by pul
 
 # Installation
 1) Clone Repo to Local Machine
-    a. Navigate to the folder you would like to clone the repo into.
-    b. Type: ‘git clone https://github.com/jashel08/board_games_capstone.git’.
+    *a. Navigate to the folder you would like to clone the repo into.
+    *b. Type: ‘git clone https://github.com/jashel08/board_games_capstone.git’.
 2) Create Python Virtual Environment 
     a. Change directory in Git Bash so the active directory is in the folder created when the repo was cloned.
     b. Type ‘python -m venv .venv’.
