@@ -29,7 +29,7 @@ Visualizations can be viewed at the following link: [Capstone Tableau Board Game
 
 # Board Game Designers by Country
 
-The United States has produced the most board game designers with board games appearing in the top 250 overall ranked games on BoardGameGeek. While not entirely surprising, I did expect more games with German designers in the top 250, with the birth of modern boardgaming having roots there.
+The United States has produced the most board game designers (100) with board games appearing in the top 250 overall ranked games on BoardGameGeek. While not entirely surprising, I did expect more games with German designers (24) in the top 250, with the birth of modern board gaming having roots there.
 
 # Board Game Mechanics Breakdown
 
