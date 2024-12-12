@@ -6,16 +6,16 @@ This project analyzes the top 250 ranked board games on BoardGameGeek.com by pul
 
 # Installation
 1) Clone Repo to Local Machine
- -- Navigate to the folder you would like to clone the repo into.
- - Type: ‘git clone https://github.com/jashel08/board_games_capstone.git’.
-2) Create Python Virtual Environment 
-    a. Change directory in Git Bash so the active directory is in the folder created when the repo was cloned.
-    b. Type ‘python -m venv .venv’.
-3) Activate Python Virtual Environment
-    a. On Windows: from the project folder in step 2a, type ‘.venv\scripts\activate’.
-    b. On Mac: from the project folder in step 2a, type ‘source .venv/bin/activate’.
-4) Install Libraries via pip
-    a. In Git Bash, type: ‘pip install -r requirements.txt’.
+2) Navigate to the folder you would like to clone the repo into.
+3) Type: ‘git clone https://github.com/jashel08/board_games_capstone.git’.
+4) Create Python Virtual Environment
+5) Change directory in Git Bash so the active directory is in the folder created when the repo was cloned.
+6) Type ‘python -m venv .venv’.
+7) Activate Python Virtual Environment
+    - On Windows: from the project folder in step 2a, type ‘.venv\scripts\activate’.
+    - On Mac: from the project folder in step 2a, type ‘source .venv/bin/activate’.
+8) Install Libraries via pip
+9) In Git Bash, type: ‘pip install -r requirements.txt’.
 
 # Operation
 1) If you have Jupyter Notebook installed, open the ‘Board_Games_Final.ipynb’ file.
@@ -42,23 +42,23 @@ Hand Management is the top mechanic among the top 250 board games, with 88 games
 # Features
 
 1) Loading Data
-    a. Read in 2 CSV files
-    b. Import data to dataframe via API and XML parsing.
+    - Read in 2 CSV files
+    - Import data to dataframe via API and XML parsing.
 2) Clean and Operate on Data
-    a. Filter out board games with erroneous rank of 0
-    b. Constrain dataset to top 250 board games.
-    c. Replace NaN values with ‘0’ or ‘UNKNOWN’ where appropriate.
-    d. Rounding averages to 2 places.
-    e. Rename Fields
-    f. Create pivot tables and csv files based on a cleaned data set.
+    - Filter out board games with erroneous rank of 0
+    - Constrain dataset to top 250 board games.
+    - Replace NaN values with ‘0’ or ‘UNKNOWN’ where appropriate.
+    - Rounding averages to 2 places.
+    - Rename Fields
+    - Create pivot tables and csv files based on a cleaned data set.
 3) Visualize/Present Data
-    a. See Tableau Dashboard here: [Capstone Tableau Board Game Dashboard](https://public.tableau.com/views/jashel08Capstone-BoardGames/Dashboard1_1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-    b. Pivot tables created in Board_Games_Final.ipynb
+    - See Tableau Dashboard here: [Capstone Tableau Board Game Dashboard](https://public.tableau.com/views/jashel08Capstone-BoardGames/Dashboard1_1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+    - Pivot tables created in Board_Games_Final.ipynb
 4) Best Practices
-    a. Utilized virtual environment, included instructions for activation.
+    - Utilized virtual environment, included instructions for activation.
 5) Interpretation of Data
-    a. Annotated code clearly in markdown cells.
-    b. Added comments to associate code blocks with steps in markdown cells.
+    - Annotated code clearly in markdown cells.
+    - Added comments to associate code blocks with steps in markdown cells.
 
 # Sources
 1) Boardgame_ranks.csv from BoardGameGeek
