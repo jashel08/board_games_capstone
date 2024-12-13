@@ -9,12 +9,14 @@ This project analyzes the top 250 ranked board games on BoardGameGeek.com by pul
     - Navigate to the folder you would like to clone the repo into.
     - Type: ‘git clone https://github.com/jashel08/board_games_capstone.git’.
 2) Create Python Virtual Environment
+**IMPORTANT - Make sure that the virtual environment folder is created as '.venv'.**
     - Change directory in Git Bash so the active directory is in the folder created when the repo was cloned.
     - Type ‘python -m venv .venv’.
-3) Activate Python Virtual Environment
-    - On Windows: from the project folder in step 2a, type ‘.venv\scripts\activate’.
+4) Activate Python Virtual Environment
+**IMPORTANT - Make sure you use '.venv' when activating your virtual environment.**
+    - On Windows: from the project folder in step 2a, type ‘.venv/scripts/activate’.
     - On Mac: from the project folder in step 2a, type ‘source .venv/bin/activate’.
-4) Install Libraries via pip
+6) Install Libraries via pip
     - In Git Bash, type: ‘pip install -r requirements.txt’.
 
 # Operation
