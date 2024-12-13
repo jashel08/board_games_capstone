@@ -25,7 +25,7 @@ This project analyzes the top 250 ranked board games on BoardGameGeek.com by pul
 # Tableau Visualizations
 Visualizations can be viewed at the following link: [Capstone Tableau Board Game Dashboard](https://public.tableau.com/views/jashel08Capstone-BoardGames/Dashboard1_1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-# Results
+# Results & Data Interpretation
 
 # Board Game Designers by Country
 
